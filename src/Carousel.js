@@ -2,10 +2,10 @@ import { useState } from 'react';
 import { data } from './data';
 import './App.css';
 
-function Carousel() {
+function Carousel({images}) {
 
-  const [picture, setPicture] = useState(data);
-  
+  const [picture, setPicture] = useState(images);
+
   const previousPicture = () => {
     setPicture ( picture =>{
       picture --;

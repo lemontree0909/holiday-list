@@ -26,7 +26,7 @@ const showTextClick = (item) =>{
       </header>
 
       {places.map((item => {
-        const {id, placeName, description, source, showMore} = item;
+        const {id, placeName, description, source, images, showMore} = item;
         return(
           <div key={id}>
             <div className="container">
@@ -39,7 +39,7 @@ const showTextClick = (item) =>{
             </div>
 
             <div className="container block">
-                <Carousel/>
+                <Carousel images = {images}/>
             </div>
 
             <div className="container">
