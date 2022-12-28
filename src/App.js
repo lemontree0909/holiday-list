@@ -1,9 +1,7 @@
 import Visit from './Visit';
 import './App.css';
 
-
 function App() {
-
 
 return(
   <div>

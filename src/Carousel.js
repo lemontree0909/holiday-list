@@ -1,16 +1,15 @@
 import { useState } from 'react';
-import { data } from './data';
 import './App.css';
 
 function Carousel({images}) {
 
-  const [picture, setPicture] = useState(images);
+  const [picture, setPicture] = useState(0);
 
   const previousPicture = () => {
     setPicture ( picture =>{
       picture --;
       if (picture<0){
-      picture=data.length -1;
+      picture=images.length -1;
       }
       return picture;
     })
@@ -19,7 +18,7 @@ function Carousel({images}) {
   const nextPicture = () => {
     setPicture (picture =>{
       picture ++;
-      if (picture > data.length - 1){
+      if (picture > images.length - 1){
         picture=0;
       }
       return picture;
@@ -28,15 +27,16 @@ function Carousel({images}) {
 
   return (<div className="slider">
 
-<div className="container">
-        <button onClick={previousPicture}>Previous</button>
-      </div>  
-      <div className='container'>
-        <img src={picture.images} width="300px" alt="person"/>
+      <div className= "block">
+        <button className="nextBtn" onClick={previousPicture}>Previous</button>
+      </div> 
+
+      <div className='block'>
+        <img src={images[picture]} width="450px" max-height="400px" alt="visit place"/>
       </div>
 
-      <div className="container">
-        <button onClick={nextPicture}>Next</button>
+      <div className="block">
+        <button className="nextBtn" onClick={nextPicture}>Next</button>
       </div>
     </div>);
 }

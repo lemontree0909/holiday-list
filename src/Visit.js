@@ -22,23 +22,26 @@ const showTextClick = (item) =>{
     <div className="App">
 
       <header className="App-header">
-        <h1>ISTANBUL. LIST OF {places.length} PLACES TO VISIT.</h1>
+        <h1>LIST OF {places.length} PLACES TO VISIT IN ISTANBUL.</h1>
       </header>
 
+
+
+      <div className="item">
       {places.map((item => {
         const {id, placeName, description, source, images, showMore} = item;
         return(
           <div key={id}>
-            <div className="container">
-              <h2>{id} - {placeName}</h2>
+            <div className="container item">
+              <h2>{placeName}</h2>
             </div>
 
             <div className="container">
-              <p>{showMore ? description : description.substring(0,100) + "...."}
+              <p className="text">{showMore ? description : description.substring(0,100) + "...."}
               <button onClick={() => showTextClick(item)}>{showMore ? "Show less" : "Show more"}</button></p>
             </div>
 
-            <div className="container block">
+            <div className="container">
                 <Carousel images = {images}/>
             </div>
 
@@ -54,7 +57,7 @@ const showTextClick = (item) =>{
           
         )
       }))}
-
+</div>
             <div className="container">
               <button className='btn' onClick={() => setPlaces([])}>delete all</button>
             </div>

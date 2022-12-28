@@ -28,7 +28,7 @@ export const data = [
         id: 4,
         placeName: "Rahmi M. Koc Museum",
         description: "The Rahmi M Koç Museum is the first major museum in Turkey dedicated to the history of Transport, Industry and Communications. Housed in magnificent buildings - themselves prime examples of industrial archaeology - on the shore of the historic Golden Horn, the collection contains thousands of items from gramophone needles to full size ships and aircraft.",
-        images: ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIHQp_XbW1y2B6r02G-GhoxMV5RYrJs-tMYA&usqp=CAU", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSO09Eto2uhMD36c0ZdWLXM7zvAD-lEGVDOxQ&usqp=CAU", "https://istanbeautiful.com/wp-content/uploads/rahmi-koc-museum3.jpg", "https://istanbeautiful.com/tr/wp-content/uploads/rahmi-koc-museum-1.jpg"],
+        images: ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIHQp_XbW1y2B6r02G-GhoxMV5RYrJs-tMYA&usqp=CAU", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSO09Eto2uhMD36c0ZdWLXM7zvAD-lEGVDOxQ&usqp=CAU", "https://istanbeautiful.com/tr/wp-content/uploads/rahmi-koc-museum-1.jpg"],
         source: "https://www.tripadvisor.com/, https://dreamstime.com, https://istanbeautiful.com/",
         showMore: false
     },
@@ -36,8 +36,8 @@ export const data = [
         id: 5,
         placeName: "Istanbul Archaeological Museum",
         description: "Besides its importance as the first Turkish museum, it remains one of the world's largest museums with over one million works. Opened to the public in 1891, it houses a collection of Greek, Roman and Byzantine artifacts.",
-        images: ["https://istanbeautiful.com/wp-content/uploads/istanbul-archaeological-museum2.jpg", "https://istanbeautiful.com/wp-content/uploads/istanbul-archaeological-museum5.jpg", "https://istanbeautiful.com/wp-content/uploads/istanbul-archaeological-museum3.jpg", "https://istanbeautiful.com/wp-content/uploads/istanbul-museum-of-ancient-orient.jpg"],
-        source: "https://www.tripadvisor.com/, https://istanbeautiful.com/",
+        images: ["https://www.flypgs.com/blog/wp-content/uploads/2019/08/istanbul-arkeoloji-muzesi-gezisi.jpg", "https://www.flypgs.com/blog/wp-content/uploads/2019/08/istanbul-arkeoloji-muzesi-nerede.jpg", "https://www.flypgs.com/blog/wp-content/uploads/2019/08/istanbul-arkeoloji-muzesi.jpg"],
+        source: "https://www.tripadvisor.com/, https://www.flypgs.com/",
         showMore: false
     },
     {
@@ -52,16 +52,16 @@ export const data = [
         id: 7,
         placeName: "Istanbul Modern | Istanbul Museum of Modern Art",
         description: "Istanbul Modern was founded in 2004 as Turkey’s first museum of modern and contemporary art. Committed to sharing Turkey’s artistic creativity and cultural identity with the local and international art worlds, the museum hosts a broad array of interdisciplinary activities. Embracing a global vision, Istanbul Modern collects works of modern and contemporary art, photography, design, architecture, and new media. Acting as an intermediary in the sharing of Turkey’s cultural identity with the international art environment, the museum supports artists in their production and efforts to form partnerships abroad. Aspiring to make art accessible to the general public, Istanbul Modern provides educational programs to art enthusiasts of all ages. Through its collections, exhibitions, and educational programs, the museum aims to instill a love of the arts in all visitors and encourage their active participation in the arts.",
-        images: ["https://images.unsplash.com/photo-1549192309-b5b9ecf012e0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aXN0YW5idWwlMjBtdXNldW0lMjBvZiUyMG1vZGVybiUyMGFydHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60","https://istanbeautiful.com/wp-content/uploads/istanbul-modern-museum2-1068x674.jpg", "https://istanbeautiful.com/wp-content/uploads/istanbul-modern-museum1-1068x712.jpg"],
-        source: "https://www.tripadvisor.com/, https://istanbeautiful.com/",
+        images: ["https://images.unsplash.com/photo-1549192309-b5b9ecf012e0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aXN0YW5idWwlMjBtdXNldW0lMjBvZiUyMG1vZGVybiUyMGFydHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60","https://muzeler.org/images/google-place-images/istanbul-modern-sanat-muzesi.jpg", "https://cdn1.ntv.com.tr/gorsel/XYTbP6O2iEu-rcW-g3wfXA.jpg?width=960&mode=crop&scale=both"],
+        source: "https://www.tripadvisor.com/, https://muzeler.org/, https://www.ntv.com.tr/",
         showMore: false
     },
     {
         id: 8,
         placeName: "Belgrad Forest",
         description: "On weekends, residents of Istanbul flock to this largest forest in the area to picnic and enjoy nature.",
-        images: ["https://images.unsplash.com/photo-1445964047600-cdbdb873673d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzJ8fEJlbGdyYWQlMjBGb3Jlc3QlMjBpc3RhbmJ1bHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60", "https://istanbeautiful.com/wp-content/uploads/belgrad-forest.jpg", "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0c/ba/1f/24/orman-girisi.jpg?w=2000&h=-1&s=1"],
-        source: "https://www.tripadvisor.com/, https://unsplash.com/, https://istanbeautiful.com/",
+        images: ["https://images.unsplash.com/photo-1445964047600-cdbdb873673d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzJ8fEJlbGdyYWQlMjBGb3Jlc3QlMjBpc3RhbmJ1bHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60", "https://www.bizevdeyokuz.com/wp-content/uploads/belgrad-ormani-tabela.jpg", "https://www.bizevdeyokuz.com/wp-content/uploads/belgrad-ormani-3.jpg"],
+        source: "https://www.tripadvisor.com/, https://unsplash.com/, https://www.bizevdeyokuz.com/",
         showMore: false
     },
     {
