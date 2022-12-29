@@ -24,7 +24,7 @@ const showTextClick = (item) =>{
         <h1>LIST OF {places.length} PLACES TO VISIT IN ISTANBUL.</h1>
       </header>
 
-      <div className="item">
+      <div>
       {places.map((item => {
         const {id, placeName, description, source, images, showMore} = item;
         return(

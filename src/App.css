@@ -17,6 +17,7 @@ body{
 .container{
   display: flex;
   justify-content: center;
+  flex: 1;
 }
 .item{
   font-family: 'Dancing Script', cursive;
