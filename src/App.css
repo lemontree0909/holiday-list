@@ -36,7 +36,7 @@ button {
 .slider{
   display: flex;
   align-items: center;
-  width: 90%;
+  flex: 1;
 }
 .pic{
   width: 450px;
