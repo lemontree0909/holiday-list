@@ -68,6 +68,10 @@ button {
 }
 
 @media all and (max-width: 800px){
+  body{
+    margin: 10px;
+    padding: 10px;
+  }
   h1, h2{
       font-size: 25px;
   }
