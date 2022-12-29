@@ -14,7 +14,6 @@ function Carousel({images}) {
       return picture;
     })
   }
-
   const nextPicture = () => {
     setPicture (picture =>{
       picture ++;
@@ -24,15 +23,13 @@ function Carousel({images}) {
       return picture;
       })
   }
-
   return (<div className="slider">
-
       <div className= "block">
         <button className="nextBtn" onClick={previousPicture}>Previous</button>
       </div> 
 
-      <div className='block'>
-        <img src={images[picture]} width="450px" max-height="400px" alt="visit place"/>
+      <div className="block">
+        <img className="pic" src={images[picture]} alt="visit place"/>
       </div>
 
       <div className="block">
@@ -40,5 +37,4 @@ function Carousel({images}) {
       </div>
     </div>);
 }
-
 export default Carousel;

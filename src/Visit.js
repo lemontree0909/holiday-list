@@ -3,7 +3,6 @@ import { data } from './data';
 import Carousel from './Carousel';
 import './App.css';
 
-
 function Visit() {
 
 const [places, setPlaces] = useState(data);
@@ -24,8 +23,6 @@ const showTextClick = (item) =>{
       <header className="App-header">
         <h1>LIST OF {places.length} PLACES TO VISIT IN ISTANBUL.</h1>
       </header>
-
-
 
       <div className="item">
       {places.map((item => {
